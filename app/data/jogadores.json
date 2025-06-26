@@ -1,0 +1,72 @@
+[
+  {
+    "id_jogador": "PlayerX123",
+    "nickname": "ShadowHunter",
+    "nivel": 27,
+    "pontuacao_rank": 2350,
+    "status": "Em partida"
+  },
+  {
+    "id_jogador": "PlayerY456",
+    "nickname": "SpeedyArrow",
+    "nivel": 15,
+    "pontuacao_rank": 1800,
+    "status": "No lobby"
+  },
+  {
+    "id_jogador": "PlayerZ789",
+    "nickname": "SilentShadow",
+    "nivel": 22,
+    "pontuacao_rank": 2050,
+    "status": "Em partida"
+  },
+  {
+    "id_jogador": "PlayerA135",
+    "nickname": "LightPaladin",
+    "nivel": 30,
+    "pontuacao_rank": 2070,
+    "status": "No lobby"
+  },
+  {
+    "id_jogador": "PlayerB246",
+    "nickname": "SquireHelper",
+    "nivel": 7,
+    "pontuacao_rank": 560,
+    "status": "Em partida"
+  },
+  {
+    "id_jogador": "PlayerC357",
+    "nickname": "LadyRose",
+    "nivel": 10,
+    "pontuacao_rank": 1560,
+    "status": "No lobby"
+  },
+  {
+    "id_jogador": "PlayerD468",
+    "nickname": "KnightCartman",
+    "nivel": 20,
+    "pontuacao_rank": 420,
+    "status": "Em partida"
+  },
+  {
+    "id_jogador": "PlayerE579",
+    "nickname": "PartyPopper",
+    "nivel": 24,
+    "pontuacao_rank": 690,
+    "status": "No lobby"
+  },
+  {
+    "id_jogador": "PlayerF681",
+    "nickname": "ScottFalco",
+    "nivel": 21,
+    "pontuacao_rank": 1020,
+    "status": "Em partida"
+  },
+  {
+    "id_jogador": "PlayerW696",
+    "nickname": "HealerMercy",
+    "nivel": 32,
+    "pontuacao_rank": 4020,
+    "status": "Em partida"
+  }
+]
