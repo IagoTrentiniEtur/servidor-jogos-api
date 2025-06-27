@@ -1,0 +1,17 @@
+Simulação da execução do Ansible:
+
+$ ansible-playbook -i deploy/hosts.yml deploy/playbook.yml
+
+PLAY [Simulação de Deploy da API do Servidor de Jogos] *********************
+
+TASK [Clonar repositório da API] ********************************************
+ok: [127.0.0.1]
+
+TASK [Instalar dependências Python] *****************************************
+changed: [127.0.0.1]
+
+TASK [Rodar servidor Uvicorn (simulado)] ***********************************
+started: [127.0.0.1]
+
+PLAY RECAP ******************************************************************
+127.0.0.1              : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
