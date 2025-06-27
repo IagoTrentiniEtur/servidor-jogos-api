@@ -1,0 +1,16 @@
+- name: Simulação de Deploy da API do Servidor de Jogos
+  hosts: servidor
+  become: false
+  tasks:
+    - name: Clonar repositório da API
+      git:
+        repo: 'https://github.com/seu-usuario/seu-repo-api.git'
+        dest: /tmp/servidor-jogos-api
+
+    - name: Instalar dependências Python
+      command: pip install -r /tmp/servidor-jogos-api/requirements.txt
+
+    - name: Rodar servidor Uvicorn (simulado)
+      shell: uvicorn app.main:app --host 0.0.0.0 --port 8000
+      async: 60
+      poll: 0
